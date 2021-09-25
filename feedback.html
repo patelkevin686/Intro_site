@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+
+			margin: auto;
+			padding: auto;
+			background-image: url(img/tree.jpg); 
+  			background-size: cover;
+		}
+
+		.feedback{
+			width: 85%;
+			max-width: 600px;
+			background: #f2f1f3;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			padding: 30px 40px;
+			box-sizing: border-box;
+			border-radius: 5px;
+			text-align: center;
+			font-family: arial, sans-serif;
+			transform: translate(-50%,-50%);
+		}
+		.feedback h1{
+			font-weight: 200;
+			margin-top: 0;
+		}
+
+		.name{
+			border: 2px solid gray;
+			margin: 8px 0;
+			padding: 12px 18px; 
+			border-radius: 10px;
+
+
+		}
+
+		.name label{
+			display: block;
+			text-align: left;
+			color: #000000;
+			font-size: 16px;
+
+		}
+
+		.name input, .name textarea{
+			width: 100%;
+			border: none;
+			background: none;
+			outline: none;
+			font-size: 18px;
+			margin-top: 6px;
+
+		}
+
+
+
+	</style>
+</head>
+<body>
+	
+		<div class="feedback">
+		<h1>Feedback</h1>
+			<label><input type="radio" name="rate" value="vgood">Very Good</label>
+			<label><input type="radio" name="rate" value="good">Good</label>
+			<label><input type="radio" name="rate" value="bad">Bad</label><br>
+			
+		<div class="name">
+
+			<label>First Name</label>
+			<input type="text" name="fname" value="" placeholder="Enter Your Firstname"><br>
+		</div>	
+		
+		<div class="name">	
+			<label>Last Name</label>
+			<input type="text" name="lname" value="" placeholder="Enter Your Lastname"><br>
+		</div>
+			
+		<div class="name">
+			<label>E-mail</label>
+			<input type="email" name="" value="" placeholder="Enter Your E-mail Here"><br>
+		</div>	
+
+		<div class="name">
+	
+			<label>Message</label>
+			<textarea></textarea><br>
+		</div>	
+		<input type="submit" value="submit">
+		<input type="reset" value="reset"><br>
+
+		<label text-align="center">For More Info contact me here is my mail id</label>
+	</div>
+
+	
+
+</body>
+</html>
